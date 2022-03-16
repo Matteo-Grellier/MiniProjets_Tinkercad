@@ -5,7 +5,7 @@
 Pour ce mini-projet on nous demandaient de réaliser une récupération de température grâce au module TMP36 et d'afficher les données sur un LCD.
 
 ## :electric_plug: Le schéma
-![alt](img\2022-03-16_162548.png)
+![alt](img/2022-03-16_162548.png)
 
 On peut voir sur le schéma : 
 - Un Arduino Uno
