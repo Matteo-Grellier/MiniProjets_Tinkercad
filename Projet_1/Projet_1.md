@@ -7,7 +7,7 @@ Pour ce mini-projet, on nous demandaient de faire clignoter des Leds l'une aprè
 ## :electric_plug: Le schéma  
 
 Voici ce que donne ce mini-projet sur tinkercad :
-![alt](img\2022-03-16_151923.png)
+![alt](img/2022-03-16_151923.png)
 
 On peut y voir un circuit composé de :
 
