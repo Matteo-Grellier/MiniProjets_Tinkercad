@@ -16,17 +16,17 @@ Dans ce projet, nous avons décidé de faire un système simple avec :
 
 Le servo-moteur est composé de 16 Pin et peut contrôler 2 moteurs différents.
 
-Donc un côté du servo_moteur, suffit à contrôler notre moteur. On va donc ce concentrer sur cette partie.
+Donc un côté du servo-moteur, suffit à contrôler notre moteur. On va donc se concentrer sur cette partie.
 
 ![image4.2](./image-4.3.png)
 
-Voici le détails des branchements (à noter qu'il marche de la même manière sur l'autre côté du L293D) :
+Voici le détail des branchements (à noter qu'il marche de la même manière sur l'autre côté du L293D) :
 
 - Le branchement *vert* : Il sert à activer les entrées et sortie.
 - Les branchements *jaunes* : Ils servent à contrôler l'entrée du courant, par conséquent le sens de rotation du moteur en sortie.
-- Les branchments *violets* : Ils sont relié au moteur, c'est la sortie du courant afin de contrôler le sens du moteur.
-- Les branchements *noirs* : Ils sont reliés aux pin de **TERRE**.
-- Les branchements *rouges* : Ils sont reliés aux pin d'**Alimentation**.
+- Les branchements *violets* : Ils sont relié au moteur, c'est la sortie du courant afin de contrôler le sens du moteur.
+- Les branchements *noirs* : Ils sont reliés aux pins de **TERRE**.
+- Les branchements *rouges* : Ils sont reliés aux pins d'**Alimentation**.
 
 
 
@@ -86,6 +86,6 @@ Il y a en sortie, 5 moteurs différents sur Tinkercad :
 
 - Le *moteur à courant continu* : C'est un moteur qui va transformer l'énergie électrique en énergie mécanique. Ici le moteur à courant continue tournera dans un sens (ou dans l'autre via un servo-moteur). Le moteur classique n'aura pas la possibilité de choisir la vitesse via un codeur. Par ailleurs, on peut se servir d'un moteur à courant continu pour produire de l'électricité.
 
-- Le *moteur à courant continu avec codeur* : Dans Tinkercad il y en a 2 types. La seule différence entre les 2 c'est le nombre de Tour par minutes possible. Un *moteur à courant continu avec codeur* va permettre de changer la vitesse de rotation du moteur (contrairement à un moteur classique).
+- Le *moteur à courant continu avec codeur* : Dans Tinkercad il y en a 2 types. La seule différence entre les 2 c'est le nombre de Tours par minute possible. Un *moteur à courant continu avec codeur* va permettre de changer la vitesse de rotation du moteur (contrairement à un moteur classique).
 
-- Le *moteur à engrenage* : Moteur composé de 2 engrenages (minimum) dont un qui fournit le couple et l'autre qui est fixée à l'arbre de sortie. L'avantage d'un moteur à engrenage c'est d'avoir une meilleur force de traction. Le moteur tourne moins vite mais la multiplication du couple donne une plus grande force au moteur.
+- Le *moteur à engrenages* : Moteur composé de 2 engrenages (minimums) dont un qui fournit le couple et l'autre qui est fixée à l'arbre de sortie. L'avantage d'un moteur à engrenages c'est d'avoir une meilleure force de traction. Le moteur tourne moins vite mais la multiplication du couple donne une plus grande force au moteur.

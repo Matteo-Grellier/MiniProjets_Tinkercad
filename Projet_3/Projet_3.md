@@ -2,13 +2,13 @@
 
 ## :clipboard: Sujet
 
-Ce mini-projet nous demandaient de mettre en place un detécteur de température, infrarouge et de luminosité. et les informations de ces différents capteur sont affichées sur un LCD. Et il faut aussi qu'une LED brille plus quand la luminosité est élevée et brille moins quand la luminosité est faible.
+Ce mini-projet nous demandait de mettre en place un détecteur de température, infrarouge et de luminosité. et les informations de ses différents capteurs sont affichées sur un LCD. Et il faut aussi qu'une LED brille plus quand la luminosité est élevée et brille moins quand la luminosité est faible.
 
 ## :electric_plug: Le schéma
 
 ![alt](img/2022-03-17_000615.png)
 
-On peut différents composants sur ce circuit dont : 
+On peut retrouver différents composants sur ce circuit dont : 
 - Un LCD
 - Un potentiomètre
 - Une photorésistance
@@ -84,11 +84,11 @@ void loop()
 
 Le code ressemble à ceci ⬆️, on peut y voir différentes fonctions qui récupèrent les valeurs des capteurs et qui enfin les affichent sur le LCD dans la fonction loop.
 
-Tout d'abord on initialise les pin des differents capteurs, le pin de la LED et le LCD.
+Tout d'abord on initialise les pins des différents capteurs, le pin de la LED et le LCD.
 
-Ensuite, avec 3 fonctions ont récupère les valeurs des capteurs
+Ensuite, avec 3 fonctions ont récupèrent les valeurs des capteurs.
 
-Récupération des données, ont a 3 fonctions qui sont : 
+Récupération des données, on a 3 fonctions qui sont : 
 - get_temp() qui récupère la valeur de la température
 ```cpp
 float get_temp()
@@ -119,7 +119,7 @@ int get_infrarouge()
 }
 ```
 
-Et enfin il ne reste plus qu'a afficher les valeurs des capteurs sur le LCD.
+Et enfin il ne reste plus qu'à afficher les valeurs des capteurs sur le LCD.
 
 Pour modifier l'intensité de la LED, on utilise la fonction ``analogWrite()`` qui prend en paramètre le pin de la LED et la valeur du capteur de luminosité venant de la fonction ``get-luominosity()``.
 

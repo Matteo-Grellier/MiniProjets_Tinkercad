@@ -2,7 +2,7 @@
 
 ## :clipboard: Sujet
 
-Pour ce mini-projet on nous demandaient de réaliser une récupération de température grâce au module TMP36 et d'afficher les données sur un LCD.
+Pour ce mini-projet on nous demandait de réaliser une récupération de température grâce au module TMP36 et d'afficher les données sur un LCD.
 
 ## :electric_plug: Le schéma
 ![alt](img/2022-03-16_162548.png)

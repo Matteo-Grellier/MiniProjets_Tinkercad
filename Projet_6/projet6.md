@@ -14,10 +14,10 @@
 
 Le schéma n'est pas très optimisé (niveau lisibilité et au niveau de l'utilisation des composants).
 
-- Nous avons 4 buzzeurs relier simplement aux pins analogiques.
+- Nous avons 4 buzzers relier simplement aux pins analogiques.
 - Nous avons 5 boutons : 4 pour les notes et 1 pour jouer un air de musique entier.
 
-> :bulb: À noter que l'utilisation de 4 buzzeurs est en réalité inutile car nous pourrions juste changer la valeur de la "note" en fonction du bouton utilisé.
+> :bulb: À noter que l'utilisation de 4 buzzers est en réalité inutile car nous pourrions juste changer la valeur de la "note" en fonction du bouton utilisé.
 
 ## :computer: Le code
 
@@ -126,20 +126,20 @@ void auClairDeLaLune() {
 
 > :bulb: Tout d'abord, ce qui se trouve dans la fonction `auClairDeLaLune()` a été trouvé sur [tropratik.fr](https://tropratik.fr/au-clair-de-la-lune-avec-arduino)
 
-Afin de répondre au sujet, nous avons décidé de jouer avec 4 notes qui seront jouable via 4 boutons. Chaque boutons jouera donc une note différente ce qui permettra de faire une mélodie (comme par exemple le thème de Mario :wink:).
+Afin de répondre au sujet, nous avons décidé de jouer avec 4 notes qui seront jouables via 4 boutons. Chaque bouton jouera donc une note différente ce qui permettra de faire une mélodie (comme par exemple le thème de Mario :wink:).
 
 Nous avons donc 5 conditions dans la boucle ``loop()`` : 
 
-- La première correspond au bouton qui permet de lancer une mélodie déjà conçus entièrement, celle de **Au Clair De La Lune**.
-- Les 4 dernières conditions font la même chose : Elles permettent de vérifier si le bouton a été activé, si oui alors on allume le buzzeur avec une note défini.
-    - Pour ces conditions, on aurait pu améliorer le code en ayant mit des conditions qui change seulement la valeur de la note.
+- La première correspond au bouton qui permet de lancer une mélodie déjà conçue entièrement, celle de **Au Clair De La Lune**.
+- Les 4 dernières conditions font la même chose : Elles permettent de vérifier si le bouton a été activé, si oui alors on allume le buzzer avec une note défini.
+    - Pour ces conditions, on aurait pu améliorer le code en ayant mis des conditions qui changent seulement la valeur de la note.
 
 
 ## :question: La question
 
 ### Quelles sont les principales différences entre les cartes Arduino Uno et Arduino MKR ? Et au niveau du micro-processeur ?
 
-Afin de comparé l'Arduino Uno et Arduino MKR, nous avons fait un tableau comparatif :
+Afin de comparer l'Arduino Uno et Arduino MKR, nous avons fait un tableau comparatif :
 
 | *Élément de comparaison/Arduino* | UNO R3 | MKR Wifi 1010 |
 |--|--|--|
@@ -152,9 +152,9 @@ Afin de comparé l'Arduino Uno et Arduino MKR, nous avons fait un tableau compar
 | ***EEPROM*** | 1 KB | no |
 | ***Fréquence d'horloge*** | 16 MHz | 48 MHz |
 
-Les grandes différences entre le Arduino Uno et Arduino MKR est que ce dernier est fait pour du développement rapide mais surtout utiliser pour l'IoT car fonctionne sous des plateformes de connectivités spécifiques. En revanche l'Arduino Uno connait une plus grande base d'utilisateur et par conséquent, il existe beaucoup de modules/fonctions. De plus l'arduino Uno a une multitude de blindages compatibles. L'Arduino MKR a besoin d'un adaptateur pour accéder à certains blindages de la UNO.
+Les grandes différences entre l'Arduino Uno et Arduino MKR sont que ce dernier est fait pour du développement rapide mais surtout utiliser pour l'IoT car fonctionne sous des plateformes de connectivités spécifiques. En revanche l'Arduino Uno connaît une plus grande base d'utilisateurs et par conséquent, il existe beaucoup de modules/fonctions. De plus l'arduino Uno a une multitude de blindages compatibles. L'Arduino MKR a besoin d'un adaptateur pour accéder à certains blindages de la UNO.
 
-Au niveau du micro-processeur, on est sur quelque chose de totalement différent. L'arduino Uno possède un micro-contrôleur nommé **ATMEGA328P** et l'Arduino MKR possède un micro-contrôleur nommé **SAMD21 Cortex®-M0+**. Premièrement, le CPU ne possède pas le même nombre de Flash Memory (Mémoire garder par l'arduino lors de la mise hors tension) et de SRAM (La mémoire vive statique). De plus, le micro-processeur du Arduino Uno à une fréquence d'horloge moins rapide que celle du MKR. Ce qui veut dire que les traitements sont plus rapide et que le débit d'information est plus élevé sur le MKR que sur le UNO.
+Au niveau du micro-processeur, on est sur quelque chose de totalement différent. L'arduino Uno possède un microcontrôleur nommé **ATMEGA328P** et l'Arduino MKR possède un microcontrôleur nommé **SAMD21 Cortex®-M0+**. Premièrement, le CPU ne possède pas le même nombre de Flash Memory (Mémoire garder par l'arduino lors de la mise hors tension) et de SRAM (La mémoire vive statique). De plus, le micro-processeur du Arduino Uno a une fréquence d'horloge moins rapide que celle du MKR. Ce qui veut dire que les traitements sont plus rapide et que le débit d'information est plus élevé sur le MKR que sur le UNO.
 
 
 

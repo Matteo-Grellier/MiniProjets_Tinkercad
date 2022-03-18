@@ -19,9 +19,9 @@ Sur le schéma il y a :
     - 1 capteur infrarouge passif (détection de mouvement)
 - 2 éléments qui sont en sortie :
     - 1 LED
-    - 1 buzzeur (pour le son)
+    - 1 buzzer (pour le son)
 
-Tous les composants sont branchés sur des **pins digitales**.
+Tous les composants sont branchés sur des **pins digitaux**.
 
 ## :computer: Le code
 
@@ -82,7 +82,7 @@ void loop()
 
 ### Explication du code
 
-Pour expliquer globalement ce que l'on fait, dans un premier temps on récupère la valeur du détecteur pour savoir s'il est activé. Si c'est le cas alors, on va activer le système en rentrant dans une boucle ``while`` qui reste active tant qu'on qu'il n'y a pas eu d'appuie sur le bouton. On vérifie a chaque tour que quelqu'un n'a pas appuyé sur un bouton. Si c'est le cas, alors on désactive le système en mettant la variable `isActive` à ``false``.
+Pour expliquer globalement ce que l'on fait, dans un premier temps on récupère la valeur du détecteur pour savoir s'il est activé. Si c'est le cas alors, on va activer le système en rentrant dans une boucle ``while`` qui reste active tant qu'on qu'il n'y a pas eu d'appui sur le bouton. On vérifie a chaque tour que quelqu'un n'a pas appuyé sur un bouton. Si c'est le cas, alors on désactive le système en mettant la variable `isActive` à ``false``.
 
 ## :question: La question
 
@@ -94,9 +94,9 @@ Pour le fonctionnement d'un capteur infrarouge :
 
 Pour simplifier : le capteur infrarouge va regarder en permanence les variations d'intensité d'un signal infrarouge et s'il y a une variation, alors il y a eu un mouvement et le capteur renvoie l'information.
 
-Le PWM pour Pulse Width Modulation, ou MLI en français pour Modulation de largeur d’impulsion est un signal de fréquence constante et de rapport cyclique variable. C'est à dire que le résultat sera toujours le même, mais que dans une même fréquence le pourra être différent.
+Le PWM pour Pulse Width Modulation ou MLI en français pour Modulation de largeur d’impulsion, est un signal de fréquence constante et de rapport cyclique variable. C'est-à-dire que le résultat sera toujours le même, mais que dans une même fréquence le pourra être différent.
 
-De ce que l'on a compris, dans l'exemple de la LED qui récupère des valeurs en TOR (donc HIGH ou LOW): La fréquence reste la même, c'est à dire que le temps écoulé pour un cycle HIGH + LOW reste le même. En revanche, le temps écoulés entre la position éteinte et allumé peut varier. 
+De ce que l'on a compris, dans l'exemple de la LED qui récupère des valeurs en TOR (donc HIGH ou LOW): La fréquence reste la même, c'est-à-dire que le temps écoulé pour un cycle HIGH + LOW reste le même. En revanche, le temps écoulé entre la position éteinte et allumée peut varier. 
 
 Exemple avec des schémas venant de [locoduino.org](https://www.locoduino.org/spip.php?article47#nb3) :
 
@@ -106,7 +106,7 @@ Exemple avec des schémas venant de [locoduino.org](https://www.locoduino.org/sp
 ![img](https://www.locoduino.org/local/cache-vignettes/L610xH173/pwm50-6e745.png?1548598522)
 **PWM à 10%** : La fréquence est de 100Hz et le rapport cyclique de 10%. 
 
-Dans le dernier schéma, la fréquence est de 10ms mais le temps où la LED est allumé est de 1ms tandis qu'elle reste éteinte pendant 9ms. Elle est donc allumé seulement 10% du temps lors d'une fréquence.
+Dans le dernier schéma, la fréquence est de 10ms mais le temps où la LED est allumée est de 1ms tandis qu'elle reste éteinte pendant 9ms. Elle est donc allumée seulement 10% du temps lors d'une fréquence.
 
 *N'oublions pas que 1Hz = 1000ms soit 100Hz = 10ms.*
 
