@@ -69,6 +69,7 @@ lcd.print(temperatureC);
 The LCD has 16x2 LCD display and 16 different pins : 
 - LED (Cathode) : GND
 - LED (Anode) : (+5V with a resistor)
+Anode et Cathode sont les broches qui permettent d'alimenter les leds du LCD.
 - DB7 : 8bit Data pins
 - DB6 : 8bit Data pins
 - DB5 : 8bit Data pins
@@ -77,9 +78,13 @@ The LCD has 16x2 LCD display and 16 different pins :
 - DB2 : 8bit Data pins
 - DB1 : 8bit Data pins
 - DB0 : 8bit Data pins
-- E : Enable 
-- RW : Read/Write
+Les pins allant de DB0 à DB7 permettent l'envoie de données binaires.
+- E : Enable : Permet d'écrire dans le registre
+- RW : Read/Write 
+Permet de choisir entre l'écriture ou la lecture sur un écran LCD.
 - RS : Register Select
+Cette broche permet de séléctionner le registre utilisé pour envoyer ou non des commandes ou des données au LCD.
 - Vo : Constrast adjustement
+Broche relié au potentiomètre pour choisir le contraste de l'écran.
 - VCC : Power supply
 - GND : Ground

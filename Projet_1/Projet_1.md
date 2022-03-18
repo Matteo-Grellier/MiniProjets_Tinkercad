@@ -65,9 +65,8 @@ Ensuite, dans le void loop(), on fait une boucle for qui parcourt le tableau de 
 
 Dans le code, on utilise les fonctions analogRead et map pour récupérer les valeurs du potentiomètre et les convertir en valeurs utilisables par les leds.
 
-
 ## :question: La question  
 
 ### Question : A quoi sert un potentiomètre ?
 
-un potentiomètre est un type de résistance variable à trois bornes. Elle permet ici de régler la luminosité des Leds en fonction de la valeur du potentiomètre.
+Un potentiomètre est un type de résistance variable à trois bornes. Elle permet ici de régler la luminosité des Leds en fonction de la valeur du potentiomètre.
