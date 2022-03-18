@@ -89,3 +89,5 @@ Il y a en sortie, 5 moteurs différents sur Tinkercad :
 - Le *moteur à courant continu avec codeur* : Dans Tinkercad il y en a 2 types. La seule différence entre les 2 c'est le nombre de Tours par minute possible. Un *moteur à courant continu avec codeur* va permettre de changer la vitesse de rotation du moteur (contrairement à un moteur classique).
 
 - Le *moteur à engrenages* : Moteur composé de 2 engrenages (minimums) dont un qui fournit le couple et l'autre qui est fixée à l'arbre de sortie. L'avantage d'un moteur à engrenages c'est d'avoir une meilleure force de traction. Le moteur tourne moins vite mais la multiplication du couple donne une plus grande force au moteur.
+
+[<-- Projet 3](../Projet_2/Projet_3.md) | 4 | [Projet 5 -->](../Projet_5/projet5.md)

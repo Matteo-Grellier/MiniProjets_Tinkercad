@@ -156,5 +156,7 @@ Les grandes différences entre l'Arduino Uno et Arduino MKR sont que ce dernier 
 
 Au niveau du micro-processeur, on est sur quelque chose de totalement différent. L'arduino Uno possède un microcontrôleur nommé **ATMEGA328P** et l'Arduino MKR possède un microcontrôleur nommé **SAMD21 Cortex®-M0+**. Premièrement, le CPU ne possède pas le même nombre de Flash Memory (Mémoire garder par l'arduino lors de la mise hors tension) et de SRAM (La mémoire vive statique). De plus, le micro-processeur du Arduino Uno a une fréquence d'horloge moins rapide que celle du MKR. Ce qui veut dire que les traitements sont plus rapide et que le débit d'information est plus élevé sur le MKR que sur le UNO.
 
+[<-- Projet 5](../Projet_5/projet5.md) | 6 |
+
 
 

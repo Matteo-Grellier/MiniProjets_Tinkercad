@@ -88,3 +88,5 @@ Cette broche permet de séléctionner le registre utilisé pour envoyer ou non d
 Broche relié au potentiomètre pour choisir le contraste de l'écran.
 - VCC : Power supply
 - GND : Ground
+
+[<-- Projet 1](../Projet_1/Projet_1.md) | 2 | [Projet 3 -->](../Projet_3/Projet_3.md)

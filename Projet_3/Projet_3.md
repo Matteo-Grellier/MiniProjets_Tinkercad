@@ -129,3 +129,5 @@ Pour modifier l'intensité de la LED, on utilise la fonction ``analogWrite()`` q
 
 La liaison UART est un protocole de communication qui permet de communiquer entre deux ordinateurs. Cette liaison est utilisée pour transmettre des données de façon asynchrone. On peut utiliser cette liaison pour faire communiquer deux arduinos ensemble. pour ce faire, il suffit de connecter les pin de l'arduino tx et rx de l'un à l'autre et de connecter les deux cartes Arduino en GND. comme sur l'image ci-dessous ⬇️  
 ![alt](img/UART_principe.png)
+
+[<-- Projet 2](../Projet_2/Projet_2.md) | 3 | [Projet 4 -->](../Projet_4/projet4.md)

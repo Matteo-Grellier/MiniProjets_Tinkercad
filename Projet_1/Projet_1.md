@@ -70,3 +70,5 @@ Dans le code, on utilise les fonctions analogRead et map pour récupérer les va
 ### Question : A quoi sert un potentiomètre ?
 
 Un potentiomètre est un type de résistance variable à trois bornes. Elle permet ici de régler la luminosité des LEDs en fonction de la valeur du potentiomètre.
+
+[<-- Sommaire](../README.md) | 1 | [Projet 2 -->](../Projet_2/Projet_2.md)

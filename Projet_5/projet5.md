@@ -110,6 +110,8 @@ Dans le dernier schéma, la fréquence est de 10ms mais le temps où la LED est 
 
 *N'oublions pas que 1Hz = 1000ms soit 100Hz = 10ms.*
 
+[<-- Projet 4](../Projet_4/projet4.md) | 5 | [Projet 6 -->](../Projet_6/projet6.md)
+
 
 
 
