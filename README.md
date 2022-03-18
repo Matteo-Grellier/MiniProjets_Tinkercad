@@ -20,5 +20,5 @@ Voici les différents projets réalisés avec Tinkercad :
 - [Projet 6 : un peu de musique](./Projet_6/projet6.md)
 
 
-| 0 |[Projet 1 -->](../Projet_1/Projet_1.md)
+| 0 |[Projet 1 -->](./Projet_1/Projet_1.md)
 
