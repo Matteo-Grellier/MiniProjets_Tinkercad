@@ -2,13 +2,13 @@
 
 ## :clipboard: Sujet
 
-Mettez en place une carte Arduino avec de quoi contrôler un servo-moteur.
+> Mettez en place une carte Arduino avec de quoi contrôler un servo-moteur.
 
 ## :electric_plug: Le schéma
 
 ![image4](./image-4.png)
 
-### Explication de l'image
+### Explication du schéma
 
 Dans ce projet, nous avons décidé de faire un système simple avec :
 - un servo-moteur **L293D**
@@ -80,6 +80,12 @@ On lui demande d'envoyer le courant vers le ***pin 1*** et d'envoyer en sortie a
 
 ### Quels sont les différents moteurs proposés par Tinkercad ? A quoi servent-ils ?​
 
-Il y a en sortie, 5 moteurs différens sur Tinkercad :
+Il y a en sortie, 5 moteurs différents sur Tinkercad :
 
-- Le *moteur vibrateur* : 
+- Le *moteur vibrateur* : Comme son nom l'indique, c'est un moteur qui va vibrer (par exemple le système de vibration dans les téléphones).
+
+- Le *moteur à courant continu* : C'est un moteur qui va transformer l'énergie électrique en énergie mécanique. Ici le moteur à courant continue tournera dans un sens (ou dans l'autre via un servo-moteur). Le moteur classique n'aura pas la possibilité de choisir la vitesse via un codeur. Par ailleurs, on peut se servir d'un moteur à courant continu pour produire de l'électricité.
+
+- Le *moteur à courant continu avec codeur* : Dans Tinkercad il y en a 2 types. La seule différence entre les 2 c'est le nombre de Tour par minutes possible. Un *moteur à courant continu avec codeur* va permettre de changer la vitesse de rotation du moteur (contrairement à un moteur classique).
+
+- Le *moteur à engrenage* : Moteur composé de 2 engrenages (minimum) dont un qui fournit le couple et l'autre qui est fixée à l'arbre de sortie. L'avantage d'un moteur à engrenage c'est d'avoir une meilleur force de traction. Le moteur tourne moins vite mais la multiplication du couple donne une plus grande force au moteur.
